@@ -61,7 +61,7 @@ func retry() {
 
 func reconnect() {
         /*
-        * Reconnect servers every 10 seconds
+        * Reconnect servers every 1 seconds
         * Bekei
          */
         for {
@@ -80,7 +80,7 @@ func reconnect() {
 
                         }
                 }
-                time.Sleep(time.Second * 10)
+                time.Sleep(time.Second)
 
         }
 }
